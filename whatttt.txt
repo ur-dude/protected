@@ -1,0 +1,30 @@
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Exploit in game started..","All")
+wait(2)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Started!","All")
+wait(1)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("All morphs Unlocked and VIP! Script made by Gfas!","All")
+wait(0.5)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Made by gfas","All")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Made by gfas","All")
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Made by gfas","All")
+wait(2)
+-- morphs
+	workspace.HoarderMorphPart.ProximityPrompt.Enabled = true;
+	workspace.VIPMale.ProximityPrompt.Enabled = true;
+	workspace.VIPFemale.ProximityPrompt.Enabled = true;
+	-- Gallery
+
+workspace.GalleryTpPrompt.ProximityPrompt.Enabled = true;
+
+-- gamepass morphs
+
+	workspace.BacteriaMorphPart.ProximityPrompt.Enabled = true;
+	workspace.ConsumerMorphPart.ProximityPrompt.Enabled = true;
+	workspace.TravelingBacteriaMorphPart.ProximityPrompt.Enabled = true;
+-- vip sprint
+
+
+	script.Parent.SprintGui.Frame.Visible = false;
+	script.Parent.VIPSprint.Frame.Visible = true;
+
+-- end
