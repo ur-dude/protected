@@ -1,3 +1,4 @@
+--[[
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Exploit in game started..","All")
 wait(1)
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Updating..","All")
@@ -14,3 +15,7 @@ workspace.BadgeDoor:Destroy()
 workspace.BadgeDoor:Destroy()
 workspace.BadgeDoor:Destroy()
 -- stop look here
+]]
+
+
+game.Players.LocalPlayer:Kick("Method patched. Please get wait to new byppas.")
